@@ -1,0 +1,22 @@
+#game-board {
+    height: 600px;
+    width: 600px;
+    background: #ccc;
+    position: relative;
+}
+
+.cell {
+    height: 8px;
+    width: 8px;
+    display: border-box;
+    border: solid 1px #ccc;
+    position: absolute;
+}
+
+.cell.alive {
+    background: #fff;
+}
+
+.cell.dead {
+    background: #121212
+}
